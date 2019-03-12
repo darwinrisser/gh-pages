@@ -1,0 +1,100 @@
+body{
+  background-image: url(https://i.imgur.com/l1HcIUw.jpg);
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  color: black;
+}
+
+h1{
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 1px;
+}
+
+p{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#bitcoin-png {
+  width:350px;
+  height:350px;
+}
+
+img {
+  transition: all 3s;
+  transition-timing-function: linear;
+}
+
+#statistics{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  opacity: .65;
+  border-radius: 10px;
+  color: white;
+}
+
+#currentTotal {
+  width:235px;
+  height:70px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 55px;
+  background-color: white;
+  opacity: .5;
+  color: black;
+}
+
+#buttons{
+  width: 350px;
+}
+
+.button {
+  background-color: orange;
+  color: black;
+  border:3px solid white;
+  border-radius:25px;
+  padding: 5px;
+  text-align: center;
+  cursor:pointer;
+  font-size: 28px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* mobile design */
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #statistics{
+    margin-bottom: 25px;
+  }
+
+  .button{
+    margin-left: 0px;;
+
+  }
+}
