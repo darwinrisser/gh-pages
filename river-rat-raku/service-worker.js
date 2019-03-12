@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gh-pages/river-rat-raku/precache-manifest.2bf29010cc712eb86d2eb3d740e6230d.js"
+  "/gh-pages/river-rat-raku-fixed/precache-manifest.c5a0e9f9ddbc32ef393cd7b5e07de3ca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gh-pages/river-rat-raku/index.html", {
+workbox.routing.registerNavigationRoute("/gh-pages/river-rat-raku-fixed/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
