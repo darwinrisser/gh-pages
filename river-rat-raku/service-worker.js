@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gh-pages/river-rat-raku/precache-manifest.dfb9b402280306bdf8a1d15e38fa9db5.js"
+  "/gh-pages/river-rat-raku/precache-manifest.8eacdab568fe8ede267a31fe3bad6117.js"
 );
 
 workbox.clientsClaim();
